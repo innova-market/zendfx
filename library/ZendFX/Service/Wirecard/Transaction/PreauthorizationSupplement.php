@@ -1,0 +1,6 @@
+<?php
+
+class ZendFX_Service_Wirecard_Transaction_PreauthorizationSupplement extends ZendFX_Service_Wirecard_Transaction_Abstract
+{
+
+}
