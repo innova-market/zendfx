@@ -12,8 +12,10 @@
  */
 class ZendFX_Service_Wirecard
 {
+    const TRANSACTION_MODE              =   'mode';
     const TRANSACTION_MODE_DEMO         =   'demo';
     const TRANSACTION_MODE_LIVE         =   'live';
+
 
     
 
@@ -22,7 +24,36 @@ class ZendFX_Service_Wirecard
         
     }
 
-    
+    /**
+     * Filter for transaction mode.
+     * 
+     * @param string $mode Transaction mode.
+     * @return string
+     */
+    public static function filterTransactionMode($mode)
+    {
+        switch ($mode) {
+            case self::TRANSACTION_MODE_DEMO:
+                return self::TRANSACTION_MODE_DEMO;
+ 
+            case self::TRANSACTION_MODE_LIVE:
+            default:
+                return self::TRANSACTION_MODE_LIVE;
+        }
+    }
+
+    /**
+     *
+     * @param <type> $transaction
+     * @param array $options
+     * @return ZendFX_Service_Wirecard_Transaction_Abstract
+     */
+    public function transaction($transaction, array $options = array())
+    {
+        
+    }
+
+
     public function __call($method, $args)
     {
         $method = mb_ereg_replace('transaction', '', $method);
