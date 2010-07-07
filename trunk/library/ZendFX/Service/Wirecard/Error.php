@@ -16,7 +16,7 @@ class ZendFX_Service_Wirecard_Error
      * 
      * @var string
      */
-    protected $_directory   = 'Error';
+    protected $_directory   = 'Data';
 
     protected $_filePrefix  = 'xml';
 
