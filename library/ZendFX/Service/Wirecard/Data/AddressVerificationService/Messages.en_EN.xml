@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AddressVerificationService>
+    <Messages>
+        <Wirecard>
+            <Message>
+                <Code>0</Code>
+                <Name>Reserved</Name>
+                <Description>Reserved.</Description>
+            </Message>
+            <Message>
+                <Code>F</Code>
+                <Name>Exact Match</Name>
+                <Description>Street address and zip code match.</Description>
+            </Message>
+            <Message>
+                <Code>P</Code>
+                <Name>Partial Match</Name>
+                <Description>Street address or zip code does not match.</Description>
+            </Message>
+            <Message>
+                <Code>U</Code>
+                <Name>AVS Unavailable</Name>
+                <Description>Address information is unavailable or the Issuer does not support AVS.</Description>
+            </Message>
+            <Message>
+                <Code>E</Code>
+                <Name>Error</Name>
+                <Description>AVS not performed due to an error or insufficient data.</Description>
+            </Message>
+            <Message>
+                <Code>N</Code>
+                <Name>No Match</Name>
+                <Description>Neither address nor zip code match.</Description>
+            </Message>
+            <Message>
+                <Code>2</Code>
+                <Name>Authorization Entity</Name>
+                <Description>Response provided by Intermediate processor.</Description>
+            </Message>
+            <Message>
+                <Code>5</Code>
+                <Name>Authorization Entity</Name>
+                <Description>Response provided by issuer processor.</Description>
+            </Message> 
+        </Wirecard>
+
+        <AmericanExpress>
+            <Message>
+                <Code>A</Code>
+                <Description>CSC and Address Match.</Description>
+            </Message>
+            <Message>
+                <Code>F</Code>
+                <Description>Full Data Match.</Description>
+            </Message>
+            <Message>
+                <Code>N</Code>
+                <Description>CSC Match.</Description>
+            </Message>
+            <Message>
+                <Code>U</Code>
+                <Description>Data Not Checked.</Description>
+            </Message>
+            <Message>
+                <Code>Y</Code>
+                <Description>All Data Match.</Description>
+            </Message>
+            <Message>
+                <Code>Z</Code>
+                <Description>CSC and Postcode Match.</Description>
+            </Message>
+        </AmericanExpress>
+
+        <MasterCard>
+            <Message>
+                <Code>A</Code>
+                <Description>Partial match: address matches but postal code does not.</Description>
+            </Message>
+            <Message>
+                <Code>N</Code>
+                <Description>Neither address nor postal code match.</Description>
+            </Message>
+            <Message>
+                <Code>R</Code>
+                <Description>Error: Retry - system unable to process.</Description>
+            </Message>
+            <Message>
+                <Code>S</Code>
+                <Description>AVS currently unavailable.</Description>
+            </Message>
+            <Message>
+                <Code>U</Code>
+                <Description>No data from issuer authorization system.</Description>
+            </Message>
+            <Message>
+                <Code>W</Code>
+                <Description>CSC and postal code match.</Description>
+            </Message>
+            <Message>
+                <Code>X</Code>
+                <Description>For U.S. addresses, nine-digit postal code matches, address does not. For addresses outside U.S., postal code matches, address does not match.</Description>
+            </Message>
+            <Message>
+                <Code>Y</Code>
+                <Description>For U.S. addresses only: five-digit postal code and address match.</Description>
+            </Message>
+            <Message>
+                <Code>Z</Code>
+                <Description>For U.S. addresses only: five-digit postal code matches, address does not match.</Description>
+            </Message>
+        </MasterCard>
+
+        <Visa>
+            <Message>
+                <Code>A</Code>
+                <Description>Address information matches but postal code does not match.</Description>
+            </Message>
+            <Message>
+                <Code>B</Code>
+                <Description>Street address matches, but postal code not verified. Returned for non U.S.-issued Visa card only.</Description>
+            </Message>
+            <Message>
+                <Code>C</Code>
+                <Description>Street address and postal code do not match. Returned for non U.S.-issued Visa cards only.</Description>
+            </Message>
+            <Message>
+                <Code>D</Code>
+                <Description>The match is exact: both the address and the postal codes match. No representment rights.</Description>
+            </Message>
+            <Message>
+                <Code>E</Code>
+                <Description>AVS data is invalid or AVS is not allowed for this card type.</Description>
+            </Message>
+            <Message>
+                <Code>G</Code>
+                <Description>Address information is unavailable, or the issuer does not support AVS. Acquirer has representment rights.</Description>
+            </Message>
+            <Message>
+                <Code>I</Code>
+                <Description>Address information is unavailable, or the issuer does not support AVS. Acquirer has representment rights.</Description>
+            </Message>
+            <Message>
+                <Code>N</Code>
+                <Description>The match is not exact, either because the postcode and/or the addresses do not match.</Description>
+            </Message>
+            <Message>
+                <Code>M</Code>
+                <Description>The match is exact: both the address and the postcodes match. No representment rights.</Description>
+            </Message>
+            <Message>
+                <Code>P</Code>
+                <Description>Postal code matches, but street address not verified. Returned for non U.S.-issued Visa cards only.</Description>
+            </Message>
+            <Message>
+                <Code>R</Code>
+                <Description>System unavailable.</Description>
+            </Message>
+            <Message>
+                <Code>S</Code>
+                <Description>U.S. issuing bank does not support AVS.</Description>
+            </Message>
+            <Message>
+                <Code>U</Code>
+                <Description>Address information unavailable. Returned if the U.S. bank does not support non-U.S. AVS or if the AVS in a U.S. bank is not functioning properly.</Description>
+            </Message>
+            <Message>
+                <Code>W</Code>
+                <Description>Street address does not match, but 9-digit postal code matches.</Description>
+            </Message>
+            <Message>
+                <Code>X</Code>
+                <Description>Street address and 9-digit postal code match.</Description>
+            </Message>
+            <Message>
+                <Code>Y</Code>
+                <Description>Street address and 5-digit postal code match.</Description>
+            </Message>
+            <Message>
+                <Code>Z</Code>
+                <Description>Postal code information matches but address information does not match.</Description>
+            </Message>
+        </Visa>
+    </Messages>
+</AddressVerificationService>
