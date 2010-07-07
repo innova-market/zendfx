@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WIRECARD_BXML xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">
+    <W_RESPONSE>
+        <W_JOB>
+        <!-- todo transaction response here -->
+        </W_JOB>
+    </W_RESPONSE>
+</WIRECARD_BXML>
