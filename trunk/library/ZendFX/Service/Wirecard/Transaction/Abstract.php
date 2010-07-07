@@ -10,6 +10,11 @@
 require_once 'ZendFX/Service/Wirecard.php';
 
 /**
+ * @see ZendFX_Service_Wirecard_Request
+ */
+require_once 'ZendFX/Service/Wirecard/Request.php';
+
+/**
  *
  * 
  */
@@ -52,6 +57,7 @@ abstract class ZendFX_Service_Wirecard_Transaction_Abstract
     public function __construct(array $options = array())
     {
         $this->_options = $options;
+        $this->_request = new ZendFX_Service_Wirecard_Request();
     }
 
     /**
@@ -71,7 +77,7 @@ abstract class ZendFX_Service_Wirecard_Transaction_Abstract
      */
     public function getRequest()
     {
-        return $request;
+        return $this->_request;
     }
 
     /**
@@ -95,6 +101,11 @@ abstract class ZendFX_Service_Wirecard_Transaction_Abstract
     public function getResponse()
     {
         
+    }
+
+    public function temp()
+    {
+        print_r($this->_options);
     }
 }
 

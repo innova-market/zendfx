@@ -56,7 +56,7 @@ class ZendFX_Service_Wirecard_Request
      */
     final public function getXmlRequest()
     {
-        return '';
+        return 'hehe';
     }
 }
 
