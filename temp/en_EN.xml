@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : en_EN.xml
+    Created on : 6 Июль 2010 г., 10:49
+    Author     : Игорёк
+    Description:
+        Purpose of the document follows.
+-->
+
+<errors>
+    <error>
+        <code>0</code>
+        <description>Successful system entry.</description>
+        <meaning>Transaction OK.</meaning>
+    </error>
+    <error>
+        <code>2</code>
+        <description>Call Voice Authorization Number.</description>
+        <meaning>Voice authorization is not possible in case of Internet payment.</meaning>
+    </error>
+    <error>
+        <code>3</code>
+        <description>Invalid Merchant Number.</description>
+        <meaning>Invalid Merchant Number.</meaning>
+    </error>
+    <error>
+        <code>4</code>
+        <description>Retain Card.</description>
+        <meaning>Retain Card.</meaning>
+    </error>
+    <error>
+        <code>5</code>
+        <description>Authorization Declined.</description>
+        <meaning>It is not possible to book the given amount from the Credit account, e.g. limit is exceeded.</meaning>
+    </error>
+    <error>
+        <code>6</code>
+        <description>Error in Sequence Number.</description>
+        <meaning>Error in sequence number while communicating with the CC company.</meaning>
+    </error>
+    <error>
+        <code>8</code>
+        <description>Honnor with ID</description>
+        <meaning>The transaction was approved by additional ID processing</meaning>
+    </error>
+    <error>
+        <code>9</code>
+        <description>Wait Command.</description>
+        <meaning>Wait Command.</meaning>
+    </error>
+    <error>
+        <code>10</code>
+        <description>Partial Approval</description>
+        <meaning>The transaction was partially approved. Please contact the acquiring processor for further information.</meaning>
+    </error>
+    <error>
+        <code>12</code>
+        <description>Invalid transaction.</description>
+        <meaning>Invalid transaction.</meaning>
+    </error>
+    <error>
+        <code>13</code>
+        <description>Invalid amount.</description>
+        <meaning>Invalid amount.</meaning>
+    </error>
+    <error>
+        <code>14</code>
+        <description>Invalid card.</description>
+        <meaning>Invalid card.</meaning>
+    </error>
+    <error>
+        <code>15</code>
+        <description>Unknown card issuer.</description>
+        <meaning>The card issuer ID provided is unknown in the payment industry.</meaning>
+    </error>
+    <error>
+        <code>17</code>
+        <description>Customer cancellation</description>
+        <meaning>The cardholder cancelled the transaction.</meaning>
+    </error>
+    <error>
+        <code>19</code>
+        <description>Try transaction again later.</description>
+        <meaning>The issuing system is currently unavailable. Please try again later.</meaning>
+    </error>
+    <error>
+        <code>20</code>
+        <description>Incorrect response (error in the issuer area)</description>
+        <meaning>The issuing system responsed incorrectly.</meaning>
+    </error>
+    <error>
+        <code>21</code>
+        <description>No action taken.</description>
+        <meaning>No action taken.</meaning>
+    </error>
+    <error>
+        <code>22</code>
+        <description>Stop Payment Purchase Order</description>
+        <meaning>The subscription was stopped by the cardholder.</meaning>
+    </error>
+    <error>
+        <code>23</code>
+        <description>Revocation of the authorized order</description>
+        <meaning>The cardholder rejected that authorized purchase.</meaning>
+    </error>
+    <error>
+        <code>24</code>
+        <description>Revocation of all authorized orders</description>
+        <meaning>The cardholder rejected all authorized purchases referencing to that payment.</meaning>
+    </error>
+    <error>
+        <code>25</code>
+        <description>Unable to locate record in file</description>
+        <meaning>The issuing system could not reference the transaction transferred.</meaning>
+    </error>
+    <error>
+        <code>26</code>
+        <description>Duplicate record, previous record replaced.</description>
+        <meaning>The validation function showed duplicate processing and rejected.</meaning>
+    </error>
+    <error>
+        <code>27</code>
+        <description>Edit error in file update field</description>
+        <meaning>The issuing system could not update and rejected the processing.</meaning>
+    </error>
+    <error>
+        <code>28</code>
+        <description>Access to file unauthorized</description>
+        <meaning>An unauthorized processing occurred.</meaning>
+    </error>
+    <error>
+        <code>29</code>
+        <description>Unable to update file</description>
+        <meaning>The issuing system could not update and rejected the processing.</meaning>
+    </error>
+    <error>
+        <code>30</code>
+        <description>Format Error.</description>
+        <meaning>Format Error.</meaning>
+    </error>
+    <error>
+        <code>31</code>
+        <description>Acquirirng Institution Identifier unknown</description>
+        <meaning>The issuing institute rejected the transaction because of incorrect values.</meaning>
+    </error>
+    <error>
+        <code>32</code>
+        <description>Partial Reversal</description>
+        <meaning>The transaction was partially reversed.</meaning>
+    </error>
+    <error>
+        <code>33</code>
+        <description>Card expired.</description>
+        <meaning>Card expired.</meaning>
+    </error>
+    <error>
+        <code>34</code>
+        <description>Suspicion of Manipulation.</description>
+        <meaning>Suspicion of Manipulation. Maybe the CVD code is wrong.</meaning>
+    </error>
+    <error>
+        <code>35</code>
+        <description>Cash service not available.</description>
+        <meaning>The cash service is not enabled.</meaning>
+    </error>
+    <error>
+        <code>36</code>
+        <description>Cash request exeeds issuer limit.</description>
+        <meaning>The amount exceeds the limit given.</meaning>
+    </error>
+    <error>
+        <code>37</code>
+        <description>Decline for CVV2 failure.</description>
+        <meaning>The CVV2 value in the transaction is invalid.</meaning>
+    </error>
+    <error>
+        <code>38</code>
+        <description>Number of PIN entry attempts exceeded.</description>
+        <meaning>The PIN was entered too many times.</meaning>
+    </error>
+    <error>
+        <code>40</code>
+        <description>Requested function not supported.</description>
+        <meaning>Requested function not supported.</meaning>
+    </error>
+    <error>
+        <code>41</code>
+        <description>Lost card.</description>
+        <meaning>The card number used is indicated as lost.</meaning>
+    </error>
+    <error>
+        <code>43</code>
+        <description>Stolen Card - pick up.</description>
+        <meaning>Stolen Card, pick up.</meaning>
+    </error>
+    <error>
+        <code>49</code>
+        <description>Transaction not permitted to cardholder.</description>
+        <meaning>The cardholder is not allowed to make requested transaction.</meaning>
+    </error>
+    <error>
+        <code>51</code>
+        <description>Issued funds or credit limit exceeded.</description>
+        <meaning>The transaction ammout exceeds the available fund or the card‘s credit limit.</meaning>
+    </error>
+    <error>
+        <code>52</code>
+        <description>No checking account.</description>
+        <meaning>The account used is not defined for checking account.</meaning>
+    </error>
+    <error>
+        <code>53</code>
+        <description>No savings account.</description>
+        <meaning>The account used is not defined as savings account.</meaning>
+    </error>
+    <error>
+        <code>54</code>
+        <description>Expired card.</description>
+        <meaning>The card has expired.</meaning>
+    </error>
+    <error>
+        <code>55</code>
+        <description>Incorrect PIN.</description>
+        <meaning>Incorrect PIN.</meaning>
+    </error>
+    <error>
+        <code>56</code>
+        <description>Card not in authorizer's database.</description>
+        <meaning>Card not in authorizer's database.</meaning>
+    </error>
+    <error>
+        <code>57</code>
+        <description>No Referencing Transaction.</description>
+        <meaning>Referencing transaction was not carried out with the card which was used for the original transaction (e.g. reversal, booking pre-authorization,...).</meaning>
+    </error>
+    <error>
+        <code>58</code>
+        <description>Terminal ID Unknown.</description>
+        <meaning>Given Terminal has no valid entry at the Credit Card Institute.</meaning>
+    </error>
+    <error>
+        <code>59</code>
+        <description>Suspected fraud.</description>
+        <meaning>The issuer rejected the transaction for suspected fraud.</meaning>
+    </error>
+    <error>
+        <code>60</code>
+        <description>Card acceptor must contact acquirer.</description>
+        <meaning>Response reason not specified. Please contact your acquirer.</meaning>
+    </error>
+    <error>
+        <code>61</code>
+        <description>Exceeds cash withdrawal floor limit.</description>
+        <meaning>The given floor limit is exceeded. Please execute an online transaction to prove the card's balance.</meaning>
+    </error>
+    <error>
+        <code>62</code>
+        <description>Restricted Card.</description>
+        <meaning>Restricted Card.</meaning>
+    </error>
+    <error>
+        <code>63</code>
+        <description>No compliance with security regulations.</description>
+        <meaning>The card /use of card does not comply with security regulations.</meaning>
+    </error>
+    <error>
+        <code>64</code>
+        <description>Referencing amount too high.</description>
+        <meaning>Transaction amount of the referencing transaction is higher than the transaction amount of the original transaction.</meaning>
+    </error>
+    <error>
+        <code>65</code>
+        <description>Exceeds witrhdrawal count limit.</description>
+        <meaning>The withdrawal limited has been execeeded.</meaning>
+    </error>
+    <error>
+        <code>68</code>
+        <description>Response did not reach destination or received too late.</description>
+        <meaning>The response message to the initial transaction request was not received by the processing system on time.</meaning>
+    </error>
+    <error>
+        <code>69</code>
+        <description>Blocked, first used. The transaction is from a new cardholder and the card has not been properly unblocked.</description>
+        <meaning>Error occurred in the card setup processing.</meaning>
+    </error>
+    <error>
+        <code>71</code>
+        <description>PIN not changed.</description>
+        <meaning>The online PIN change was not successful.</meaning>
+    </error>
+    <error>
+        <code>72</code>
+        <description>Invalid/nonexistent “To Account” specified.</description>
+        <meaning>Error in the card processing.</meaning>
+    </error>
+    <error>
+        <code>73</code>
+        <description>Invalid/nonexistent “From Account” specified.</description>
+        <meaning>Error in the card processing.</meaning>
+    </error>
+    <error>
+        <code>74</code>
+        <description>Invalid/nonexistent account specified (general).</description>
+        <meaning>Error in the card processing.</meaning>
+    </error>
+    <error>
+        <code>75</code>
+        <description>PIN entered incorrectly too often.</description>
+        <meaning>PIN entered incorrectly too often.</meaning>
+    </error>
+    <error>
+        <code>77</code>
+        <description>PIN entry necessary.</description>
+        <meaning>PIN entry necessary.</meaning>
+    </error>
+    <error>
+        <code>78</code>
+        <description>Stop Payment Order.</description>
+        <meaning>This error code pertains to recurring or installment payments. The transaction was declined or returned because the cardholder requested the issuer to stop a specific recurring or installment payment transaction.</meaning>
+    </error>
+    <error>
+        <code>79</code>
+        <description>Revocation of Authorization Order.</description>
+        <meaning>This error code pertains to recurring or installment payments.The transaction was declined or returned because the cardholder requested the issuer to stop a specific recurring or installment payment transaction for a specific merchant account.</meaning>
+    </error>
+    <error>
+        <code>80</code>
+        <description>Amount no longer available.</description>
+        <meaning>Amount no longer available.</meaning>
+    </error>
+    <error>
+        <code>81</code>
+        <description>Message-flow error.</description>
+        <meaning>Message-flow error.</meaning>
+    </error>
+    <error>
+        <code>82</code>
+        <description>Authorization center not available for 60 seconds.</description>
+        <meaning>The transaction could not be authorized over a period of 60 seconds due to lack of connection to authorization centre.</meaning>
+    </error>
+    <error>
+        <code>83</code>
+        <description>Authorization center not available for 300 seconds.</description>
+        <meaning>The transaction could not be authorized over a period of 300 seconds due to lack of connection to authorization centre.</meaning>
+    </error>
+    <error>
+        <code>84</code>
+        <description>Negative CAM, dCVV, iCVV, or CVV results.</description>
+        <meaning>The card identifying values do not match.</meaning>
+    </error>
+    <error>
+        <code>85</code>
+        <description>No reason to decline a request for account number verification, address verification, CVV2 verification, or a credit voucher or merchandise return.</description>
+        <meaning>The issuing system did not specify the reason for rejecting but could exclude some.</meaning>
+    </error>
+    <error>
+        <code>86</code>
+        <description>PIN Validation not possible.</description>
+        <meaning>The PIN validation could not be accomplished.</meaning>
+    </error>
+    <error>
+        <code>87</code>
+        <description>Purchase Amount Only, No Cash Back Allowed.</description>
+        <meaning>The cash back processing is not allowed.</meaning>
+    </error>
+    <error>
+        <code>88</code>
+        <description>Automatic re-initialization is required (terminal).</description>
+        <meaning>Automatic re-initialization is required (terminal).</meaning>
+    </error>
+    <error>
+        <code>89</code>
+        <description>Automatic re-initialization is required (user).</description>
+        <meaning>Automatic re-initialization is required (user).</meaning>
+    </error>
+    <error>
+        <code>90</code>
+        <description>Cryptographic failure.</description>
+        <meaning>The issuing system lead to an encryption failure.</meaning>
+    </error>
+    <error>
+        <code>91</code>
+        <description>Card issuer temporarily not reachable.</description>
+        <meaning>Card issuer temporarily not reachable.</meaning>
+    </error>
+    <error>
+        <code>92</code>
+        <description>Card Type not Processed by Authorization Centre.</description>
+        <meaning>The card type is not processed by the authorization centre.</meaning>
+    </error>
+    <error>
+        <code>93</code>
+        <description>Transaction cannot be completed due to legal violation.</description>
+        <meaning>The transaction request conflicts with applied law.</meaning>
+    </error>
+    <error>
+        <code>96</code>
+        <description>Processing Temporarily not possible.</description>
+        <meaning>Processing temporarily not possible.</meaning>
+    </error>
+    <error>
+        <code>97</code>
+        <description>Security Breach.</description>
+        <meaning>Security breach.</meaning>
+    </error>
+    <error>
+        <code>98</code>
+        <description>Date and Time Not Plausible.</description>
+        <meaning>Date and time not plausible.</meaning>
+    </error>
+    <error>
+        <code>99</code>
+        <description>Error in PAC Encryption Detected.</description>
+        <meaning>Error in PAC encryption detected.</meaning>
+    </error>
+    <error>
+        <code>200</code>
+        <description>Mandatory elements are missing.</description>
+        <meaning>Missing elements in XML-Request.</meaning>
+    </error>
+    <error>
+        <code>201</code>
+        <description>Terminal acquisition failure.</description>
+        <meaning>An unlocked terminal was not found within the time allotted for locking a terminal.</meaning>
+    </error>
+    <error>
+        <code>202</code>
+        <description>Transaction processing refused.</description>
+        <meaning>An unlocked brick was not found within the time allotted for locking a brick.</meaning>
+    </error>
+    <error>
+        <code>203</code>
+        <description>Time-out while Contacting Credit Card Processor.</description>
+        <meaning>Time-out while contacting CC processor.</meaning>
+    </error>
+    <error>
+        <code>204</code>
+        <description>Time-out while Making Transaction Reversal.</description>
+        <meaning>Time-out while making transaction reversal.</meaning>
+    </error>
+    <error>
+        <code>205</code>
+        <description>Invalid Config Number.</description>
+        <meaning>Content of ConfigNumber must be hexadecimal with a size of 0 to 16 characters.</meaning>
+    </error>
+    <error>
+        <code>206</code>
+        <description>Invalid Business Case Signature.</description>
+        <meaning>Content of BusinessCaseSignature must be hexadecimal with a size of 0 to 16 characters.</meaning>
+    </error>
+    <error>
+        <code>207</code>
+        <description>Invalid FunctionID.</description>
+        <meaning>Content of FunctionID must be alphanumerical with a size of 0 to 32 characters.</meaning>
+    </error>
+    <error>
+        <code>208</code>
+        <description>Invalid JobID.</description>
+        <meaning>Content of JobID must be alphanumerical with a size of 0 to 32 characters.</meaning>
+    </error>
+    <error>
+        <code>209</code>
+        <description>Invalid.</description>
+        <meaning>Content of TransactionID must be alphanumerical with a size of 0 to 32 characters.</meaning>
+    </error>
+    <error>
+        <code>210</code>
+        <description>Invalid CountryCode.</description>
+        <meaning>Content of CountryCode must be capital with a size of 2 characters.</meaning>
+    </error>
+    <error>
+        <code>211</code>
+        <description>Invalid Amount.</description>
+        <meaning>Content of Amount must be numerical with a size of 1 to 9 digits.</meaning>
+    </error>
+    <error>
+        <code>212</code>
+        <description>Invalid Currency.</description>
+        <meaning>Content of Currency must be capital with a size of 3 characters.</meaning>
+    </error>
+    <error>
+        <code>213</code>
+        <description>Invalid Credit Card Number.</description>
+        <meaning>Content of CreditCardNumber must be numerical with a size of 13 to 16 digits.</meaning>
+    </error>
+    <error>
+        <code>214</code>
+        <description>Invalid Expiration Year.</description>
+        <meaning>Content of Expiration Year must be numerical with a size of 4 digits.</meaning>
+    </error>
+    <error>
+        <code>215</code>
+        <description>Invalid Expiration Month.</description>
+        <meaning>Content of ExpirationMonth must be numerical with a size of 2 digits.</meaning>
+    </error>
+    <error>
+        <code>216</code>
+        <description>Invalid Card Holder Name.</description>
+        <meaning>Content of CardHolderName must be ASCII with a size of 1 to 80 characters.</meaning>
+    </error>
+    <error>
+        <code>217</code>
+        <description>Invalid IP Address.</description>
+        <meaning>Content of IPAddress must be numerical with dots with a size of 0 to 15 characters.</meaning>
+    </error>
+    <error>
+        <code>218</code>
+        <description>Invalid GuWID.</description>
+        <meaning>Content of GuWID must be alphanumerical with a size of 21 to 24 characters.</meaning>
+    </error>
+    <error>
+        <code>219</code>
+        <description>Invalid Authorization Code.</description>
+        <meaning>Authorization Code is usually numerical with 6 digits.</meaning>
+    </error>
+    <error>
+        <code>220</code>
+        <description>Invalid CVC number.</description>
+        <meaning>Content of CVC must be numerical with a size of 3 to 4 characters.</meaning>
+    </error>
+    <error>
+        <code>221</code>
+        <description>Invalid Luhn checksum.</description>
+        <meaning>Invalid Luhn checksum.</meaning>
+    </error>
+    <error>
+        <code>222</code>
+        <description>Expired card.</description>
+        <meaning>Expiration date invalid.</meaning>
+    </error>
+    <error>
+        <code>223</code>
+        <description>Unknown Currency.</description>
+        <meaning>The requested currency is not listed in data base.</meaning>
+    </error>
+    <error>
+        <code>224</code>
+        <description>No referenced transaction.</description>
+        <meaning>Could not find referenced transaction for GuWID.</meaning>
+    </error>
+    <error>
+        <code>225</code>
+        <description>Invalid elements.</description>
+        <meaning>Invalid XML tag elements.</meaning>
+    </error>
+    <error>
+        <code>226</code>
+        <description>Invalid transaction flow.</description>
+        <meaning>Referenced transaction is of wrong type.</meaning>
+    </error>
+    <error>
+        <code>227</code>
+        <description>Invalid transaction type.</description>
+        <meaning>This transaction type is not allowed for this specific Business Case.</meaning>
+    </error>
+    <error>
+        <code>228</code>
+        <description>Wrong Recurring Transaction-Type.</description>
+        <meaning>Error in XML data stream (in the recurring part).</meaning>
+    </error>
+    <error>
+        <code>229</code>
+        <description>Invalid commerce type.</description>
+        <meaning>Content of 'CommerceType' must be one of 'eCommerce', 'MOTO' or 'CustomerPresent'.</meaning>
+    </error>
+    <error>
+        <code>230</code>
+        <description>Referenced transaction failed.</description>
+        <meaning>Referenced transaction type failed.</meaning>
+    </error>
+    <error>
+        <code>234</code>
+        <description>Invalid content.</description>
+        <meaning>Content of 'Usage' must be alphanumerical with a size of 0 to 256 characters.</meaning>
+    </error>
+    <error>
+        <code>235</code>
+        <description>Unequal Amount.</description>
+        <meaning>TRANS_AMOUNT must be equal to amount of referenced transaction in case of REVERSAL or CAPTURE.</meaning>
+    </error>
+    <error>
+        <code>236</code>
+        <description>Unequal Currency.</description>
+        <meaning>CUR_CODE must be equal to referenced transaction in case of BOOKBACK, BOOKPREAUTH or CAPTURE.</meaning>
+    </error>
+    <error>
+        <code>237</code>
+        <description>Unequal Authorization Code.</description>
+        <meaning>ACQ_AUTHORIZATION must be equal to authorization code of referenced transaction.</meaning>
+    </error>
+    <error>
+        <code>238</code>
+        <description>Unequal Country Code.</description>
+        <meaning>TRANS_COUNTRY_CODE must be equal to country code of referenced transaction.</meaning>
+    </error>
+    <error>
+        <code>239</code>
+        <description>Referenced amount unequal.</description>
+        <meaning>Referenced amount must be equal or less to amount of referenced Transaction in case of AMEX Capture.</meaning>
+    </error>
+    <error>
+        <code>240</code>
+        <description>Unknown credit card type.</description>
+        <meaning>Credit card type for card no. unknown / rejected.</meaning>
+    </error>
+    <error>
+        <code>241</code>
+        <description>Terminal not available.</description>
+        <meaning>Terminal for the credit-card type + the currency is not available.</meaning>
+    </error>
+    <error>
+        <code>242</code>
+        <description>Terminal not ready.</description>
+        <meaning>Terminal for the credit card type + the currency is not ready.</meaning>
+    </error>
+    <error>
+        <code>243</code>
+        <description>Amount larger.</description>
+        <meaning>The sum of all bookbacks must be equal or less to amount of referenced transaction in case of ...</meaning>
+    </error>
+    <error>
+        <code>244</code>
+        <description>Amount smaller.</description>
+        <meaning>The requested amount is smaller than the minimum amount.</meaning>
+    </error>
+    <error>
+        <code>245</code>
+        <description>Transaction processing not possible.</description>
+        <meaning>Processing functions BOOKBACK, REFUND and REVERSAL not allowed for terminal (credit card).</meaning>
+    </error>
+    <error>
+        <code>246</code>
+        <description>Black listed Credit Card number.</description>
+        <meaning>Credit Card was rejected because of suspicious pattern.</meaning>
+    </error>
+    <error>
+        <code>247</code>
+        <description>WD blacklist check failure.</description>
+        <meaning>Wirecard blacklist check - failure 1.</meaning>
+    </error>
+    <error>
+        <code>248</code>
+        <description>WD blacklist check failure.</description>
+        <meaning>Wirecard blacklist check - failure 2.</meaning>
+    </error>
+    <error>
+        <code>249</code>
+        <description>Credit restriction violation.</description>
+        <meaning>Credit restriction violation.</meaning>
+    </error>
+    <error>
+        <code>250</code>
+        <description>System error.</description>
+        <meaning>System error.</meaning>
+    </error>
+    <error>
+        <code>251</code>
+        <description>No permission</description>
+        <meaning>No permission to use the requested service.</meaning>
+    </error>
+    <error>
+        <code>252</code>
+        <description>Merchant Blacklist - Reason 502.</description>
+        <meaning>Declined by Wirecard risk management - based on merchant's blacklist (no information for cardholder!)</meaning>
+    </error>
+    <error>
+        <code>253</code>
+        <description>WD Blacklist Error</description>
+        <meaning>Declined by Wirecard risk management (no information for cardholder!)</meaning>
+    </error>
+    <error>
+        <code>254</code>
+        <description>WD Blacklist Error 2</description>
+        <meaning>Declined by Wirecard risk management (no information for cardholder!)</meaning>
+    </error>
+    <error>
+        <code>255</code>
+        <description>Merchant Blacklist - Reason 501</description>
+        <meaning>Declined by Wirecard risk management - based on merchant's blacklist (no information for cardholder!)</meaning>
+    </error>
+    <error>
+        <code>256</code>
+        <description>Entry found in OFAC Specially Designated Nationals list (SDN).</description>
+        <meaning>Declined by Wirecard risk management (no information for cardholder!).</meaning>
+    </error>
+    <error>
+        <code>257</code>
+        <description>Reserved for Risk Management.</description>
+        <meaning>Declined by Wirecard risk management (no information for cardholder!).</meaning>
+    </error>
+    <error>
+        <code>258</code>
+        <description>Reserved for Risk Management.</description>
+        <meaning>Declined by Wirecard risk management (no information for cardholder!).</meaning>
+    </error>
+    <error>
+        <code>259</code>
+        <description>Reserved for Risk Management.</description>
+        <meaning>Declined by Wirecard risk management (no information for cardholder!).</meaning>
+    </error>
+    <error>
+        <code>260</code>
+        <description>Credit card number not allowed in demo mode.</description>
+        <meaning>Only demo card number is allowed for this currency in demo mode.</meaning>
+    </error>
+    <error>
+        <code>261</code>
+        <description>Credit card number not allowed outside demo mode.</description>
+        <meaning>Use of demo card number is only allowed in demo mode.</meaning>
+    </error>
+    <error>
+        <code>262</code>
+        <description>Unsuccessful demo run.</description>
+        <meaning>Operation failed due to use of demo card number '4200000000000'.</meaning>
+    </error>
+    <error>
+        <code>270</code>
+        <description>Invalid credit card.</description>
+        <meaning>Credit card number did not pass Cybersource basic checks.</meaning>
+    </error>
+    <error>
+        <code>271</code>
+        <description>Invalid data.</description>
+        <meaning>Data provided to Cybersource is not consistent with the request.</meaning>
+    </error>
+    <error>
+        <code>272</code>
+        <description>Missing field.</description>
+        <meaning>Request provided to Cybersource is missing a field.</meaning>
+    </error>
+    <error>
+        <code>273</code>
+        <description>Missing required field(s).</description>
+        <meaning>Request is missing a required field(s).</meaning>
+    </error>
+    <error>
+        <code>275</code>
+        <description>Score result exceeds.</description>
+        <meaning>Cybersource Score result exceeds the score threshold.</meaning>
+    </error>
+    <error>
+        <code>280</code>
+        <description>SC1-AVS has a negative result</description>
+        <meaning>SC1 risk management declines.</meaning>
+    </error>
+    <error>
+        <code>281</code>
+        <description>SC1-DELPHI/Score1 and AVS have negative results.</description>
+        <meaning>SC1 risk management declines.</meaning>
+    </error>
+    <error>
+        <code>282</code>
+        <description>SC1-DELPHI/Score1 has a negative result.</description>
+        <meaning>SC1 risk management declines.</meaning>
+    </error>
+    <error>
+        <code>283</code>
+        <description>SC1-System Error.</description>
+        <meaning>SC1 risk management declines.</meaning>
+    </error>
+    <error>
+        <code>284</code>
+        <description>SC1-Data Error.</description>
+        <meaning>SC1 risk management declines.</meaning>
+    </error>
+    <error>
+        <code>285</code>
+        <description>SC1-Missing required parameter.</description>
+        <meaning>SC1 risk management declines.</meaning>
+    </error>
+    <error>
+        <code>286</code>
+        <description>SC1-No Delphi/Score1 (0).</description>
+        <meaning>SC1 risk management declines.</meaning>
+    </error>
+    <error>
+        <code>287</code>
+        <description>Reserved for SC1.</description>
+        <meaning>SC1 risk management declines.</meaning>
+    </error>
+    <error>
+        <code>288</code>
+        <description>SC1 - reserved GICC.</description>
+        <meaning>SC1 risk management declines.</meaning>
+    </error>
+    <error>
+        <code>289</code>
+        <description>SC1 - reserved for future use.</description>
+        <meaning>SC1 risk management declines.</meaning>
+    </error>
+    <error>
+        <code>290</code>
+        <description>Unequal BC Signature.</description>
+        <meaning>The Business Case Signature has to be equal to the referencing transaction.</meaning>
+    </error>
+    <error>
+        <code>301</code>
+        <description>EBS blacklist check failure.</description>
+        <meaning>EBS blacklist check failure.</meaning>
+    </error>
+    <error>
+        <code>302</code>
+        <description>EBS scoring analysis failure.</description>
+        <meaning>EBS scoring analysis failure.</meaning>
+    </error>
+    <error>
+        <code>303</code>
+        <description>US AVS check failed - no match in address or zip code.</description>
+        <meaning>US AVS check failure.</meaning>
+    </error>
+    <error>
+        <code>304</code>
+        <description>US CVV2 check failure.</description>
+        <meaning>US CVV2 check failure.</meaning>
+    </error>
+    <error>
+        <code>305</code>
+        <description>US blacklist check failure.</description>
+        <meaning>US blacklist check failure.</meaning>
+    </error>
+    <error>
+        <code>306</code>
+        <description>eFalcon scoring analysis failure.</description>
+        <meaning>eFalcon scoring analysis failure.</meaning>
+    </error>
+    <error>
+        <code>307</code>
+        <description>US Authorization Declined.</description>
+        <meaning>US Authorization Declined.</meaning>
+    </error>
+    <error>
+        <code>309</code>
+        <description>US AVS check error - Parameters missing or invalid.</description>
+        <meaning>Parameters inside &gt;ADDRESS&lt; are checked and not found or in a wrong format.</meaning>
+    </error>
+    <error>
+        <code>310</code>
+        <description>US AVS check failed - address matches.</description>
+        <meaning>American AVS declines.</meaning>
+    </error>
+    <error>
+        <code>311</code>
+        <description>US AVS check failed - 9 digit zip code matches.</description>
+        <meaning>American AVS declines.</meaning>
+    </error>
+    <error>
+        <code>312</code>
+        <description>US AVS check failed - 5 digit zip code matches.</description>
+        <meaning>American AVS declines.</meaning>
+    </error>
+    <error>
+        <code>314</code>
+        <description>US AVS check - address information is unavailable.</description>
+        <meaning>American AVS declines.</meaning>
+    </error>
+    <error>
+        <code>315</code>
+        <description>US AVS check failed - system unable to process.</description>
+        <meaning>American AVS declines.</meaning>
+    </error>
+    <error>
+        <code>316</code>
+        <description>US AVS check failed – not supported.</description>
+        <meaning>American AVS declines.</meaning>
+    </error>
+    <error>
+        <code>317</code>
+        <description>US AVS check failed - not supported for this industry.</description>
+        <meaning>American AVS declines.</meaning>
+    </error>
+    <error>
+        <code>318</code>
+        <description>US AVS check failed - not performed.</description>
+        <meaning>American AVS declines.</meaning>
+    </error>
+    <error>
+        <code>319</code>
+        <description>US AVS check failed - unknown response from issuer.</description>
+        <meaning>American AVS declines.</meaning>
+    </error>
+    <error>
+        <code>320</code>
+        <description>US AVS check failed - system error.</description>
+        <meaning>American AVS declines.</meaning>
+    </error>
+    <error>
+        <code>321</code>
+        <description>SC2 Location not found.</description>
+        <meaning>SC2 risk management declines.</meaning>
+    </error>
+    <error>
+        <code>322</code>
+        <description>SC2 Only part of address matches.</description>
+        <meaning>SC2 risk management declines.</meaning>
+    </error>
+    <error>
+        <code>323</code>
+        <description>SC2 Bad credit score.</description>
+        <meaning>SC2 risk management declines.</meaning>
+    </error>
+    <error>
+        <code>324</code>
+        <description>SC2 System Error.</description>
+        <meaning>SC2 risk management declines.</meaning>
+    </error>
+    <error>
+        <code>325</code>
+        <description>Blocked by Wirecard.</description>
+        <meaning>Declined by Wirecard risk management (no information for cardholder!).</meaning>
+    </error>
+    <error>
+        <code>340</code>
+        <description>Wirecard Negative List.</description>
+        <meaning>Declined by Wirecard risk management (no information for cardholder!).</meaning>
+    </error>
+    <error>
+        <code>351</code>
+        <description>Pick up card.</description>
+        <meaning>Pick up card.</meaning>
+    </error>
+    <error>
+        <code>352</code>
+        <description>Pick up card - special condition.</description>
+        <meaning>A special condition happened , pick up the card.</meaning>
+    </error>
+    <error>
+        <code>353</code>
+        <description>Card lost - pick up.</description>
+        <meaning>Card was lost by cardholder.</meaning>
+    </error>
+    <error>
+        <code>354</code>
+        <description>Stolen Card - pick up.</description>
+        <meaning>Card holder declared card as stolen.</meaning>
+    </error>
+    <error>
+        <code>355</code>
+        <description>Do not honor card.</description>
+        <meaning>Do not honor card.</meaning>
+    </error>
+    <error>
+        <code>400</code>
+        <description>SFC system error.</description>
+        <meaning>Technical error at the acquirer.</meaning>
+    </error>
+    <error>
+        <code>401</code>
+        <description>Transaction input error.</description>
+        <meaning>This error code is not uses yet.</meaning>
+    </error>
+    <error>
+        <code>402</code>
+        <description>Not authorized transaction.</description>
+        <meaning>This error code is not uses yet.</meaning>
+    </error>
+    <error>
+        <code>403</code>
+        <description>Authorization refused due to high risk.</description>
+        <meaning>Declined by Wirecard risk management (no information for cardholder!).</meaning>
+    </error>
+    <error>
+        <code>404</code>
+        <description>Authorization refused due to exceeding authorization.</description>
+        <meaning>The authorization of this transaction has been exceeded.</meaning>
+    </error>
+    <error>
+        <code>405</code>
+        <description>Third party authorization failed.</description>
+        <meaning>This error code is not uses yet.</meaning>
+    </error>
+    <error>
+        <code>406</code>
+        <description>Credit request rejected due to exceeding the credit.</description>
+        <meaning>This error code is not uses yet.</meaning>
+    </error>
+    <error>
+        <code>407</code>
+        <description>Canceled by Acquirer.</description>
+        <meaning>Safecharge fraud-driven cancellation / bookbacks (status changed manually).</meaning>
+    </error>
+    <error>
+        <code>450</code>
+        <description>XML Document Invalid.</description>
+        <meaning>There is an error in the XML data stream.</meaning>
+    </error>
+    <error>
+        <code>451</code>
+        <description>BC signature not found.</description>
+        <meaning>The wrong Business Case Signature was used.</meaning>
+    </error>
+    <error>
+        <code>452</code>
+        <description>Config Number not found for BC signature.</description>
+        <meaning>The wrong Business Case Signature or the wrong config.ini was used.</meaning>
+    </error>
+    <error>
+        <code>453</code>
+        <description>Partially successful batch update.</description>
+        <meaning>Partially successful batch update.</meaning>
+    </error>
+    <error>
+        <code>454</code>
+        <description>Batch not processed.</description>
+        <meaning>Batch not processed.</meaning>
+    </error>
+    <error>
+        <code>455</code>
+        <description>OCT (formerly CFT) transaction is not supported.</description>
+        <meaning>Issuer / Card Organization do not support the OCT/CFT transaction.</meaning>
+    </error>
+    <error>
+        <code>456</code>
+        <description>Attribute 'type' of a function element does not conform to the specification.</description>
+        <meaning>Attribute 'type' must have the value 'cft' if provided.</meaning>
+    </error>
+    <error>
+        <code>457</code>
+        <description>Card has not been processed yet.</description>
+        <meaning>Card needs to be previously used by the processor before the OCT/CFT transaction can be used.</meaning>
+    </error>
+    <error>
+        <code>458</code>
+        <description>Inconsistent referenced transaction information found.</description>
+        <meaning></meaning>
+    </error>
+    <error>
+        <code>459</code>
+        <description>Function is not supported.</description>
+        <meaning></meaning>
+    </error>
+    <error>
+        <code>500</code>
+        <description>Time-out while using the Wirecard applet.</description>
+        <meaning>Time-out while using the Wirecard applet.</meaning>
+    </error>
+    <error>
+        <code>501</code>
+        <description>Client Communication Link Failure.</description>
+        <meaning>A Problem occurred during the communication to the client.</meaning>
+    </error>
+    <error>
+        <code>502</code>
+        <description>Client Communication Link Failure - processed.</description>
+        <meaning>A Problem occurred during the communication to the client.</meaning>
+    </error>
+    <error>
+        <code>507</code>
+        <description>General Risk Management Rejection.</description>
+        <meaning>General risk management rejection.</meaning>
+    </error>
+    <error>
+        <code>508</code>
+        <description>Missing input data for Risk Management.</description>
+        <meaning>Missing input data for Risk Management.</meaning>
+    </error>
+    <error>
+        <code>510</code>
+        <description>The country of the Issuer does not match with the country of the transaction.</description>
+        <meaning>The country of the Issuer does not match with the country of the transaction.</meaning>
+    </error>
+    <error>
+        <code>511</code>
+        <description>Unknown error received from the acquirer.</description>
+        <meaning>An unknown error is received from the acquirer.</meaning>
+    </error>
+    <error>
+        <code>520</code>
+        <description>The card velocity check failed.</description>
+        <meaning>The sum of all submitted transactions exceeds the permissible limit.</meaning>
+    </error>
+    <error>
+        <code>521</code>
+        <description>The card velocity check failed.</description>
+        <meaning>The sum of all authorized amounts exceeds the permissible limit.</meaning>
+    </error>
+    <error>
+        <code>522</code>
+        <description>A system error prevented enrollment from completing.</description>
+        <meaning>This card is not eligible for 3-D Secure processing. Card should be accepted for payment. Merchant may not claim a liability shift on this transaction under any circumstances.</meaning>
+    </error>
+    <error>
+        <code>523</code>
+        <description>Unable to verify enrollment.</description>
+        <meaning>This card is not eligible for 3-D Secure processing. Card should be accepted for payment. Merchant may not claim a liability shift on this transaction under any circumstances.</meaning>
+    </error>
+    <error>
+        <code>524</code>
+        <description>Cardholder not participating.</description>
+        <meaning>This card is eligible but not enrolled in the 3-D Secure program. It does not require authentication.Merchant may claim liability shift with the ECI code if allowed by the Card Association.</meaning>
+    </error>
+    <error>
+        <code>525</code>
+        <description>Verification failed.</description>
+        <meaning>Cardholder failed or cancelled 3-D Secure authentication.</meaning>
+    </error>
+    <error>
+        <code>526</code>
+        <description>Transaction processing refused.</description>
+        <meaning>It is not possible to process the transaction using requested 'Recurring Type'.</meaning>
+    </error>
+    <error>
+        <code>527</code>
+        <description>Attribute 'minorunits' of the 'Amount' element does not conform to the specification.</description>
+        <meaning>The attribute 'minorunits' must be one digit.</meaning>
+    </error>
+    <error>
+        <code>528</code>
+        <description>Amount 'minorunits' refused.</description>
+        <meaning>The minor unit of currency 'XXX' is '?' according to ISO 4217:2001. Value '0' means that there is no minor unit for that currency, whereas values '1','2' and '3' signify a ratio of 10:1, 100:1 and 1 000:1 respectively.</meaning>
+    </error>
+    <error>
+        <code>538</code>
+        <description>Sales Date out of interval.</description>
+        <meaning>A capture had been attempted outside the valid sales date interval. The default interval for a capture is 35 days following the sales date. The sales date interval can be configured per business case. Please contact Wirecard customer services at support@wirecard.com if you wish to have a sales date time interval changed.</meaning>
+    </error>
+    <error>
+        <code>539</code>
+        <description>Card brand is not participating.</description>
+        <meaning>The card is not eligible for 3-D Secure processing, yet it may be accepted for payment. With transactions made on this card, the merchant may, however, not claim a liability shift under any circumstances.</meaning>
+    </error>
+    <error>
+        <code>700</code>
+        <description>Timeout, Diagnostic successful.</description>
+        <meaning>A Timeout has happened, which went successfully through a timeout diagnostic.</meaning>
+    </error>
+    <error>
+        <code>701</code>
+        <description>Timeout, Diagnostic failed.</description>
+        <meaning>A Timeout has happened, which failed to run through the timeout diagnostic.</meaning>
+    </error>
+    <error>
+        <code>711</code>
+        <description>Response contained wrong Credit Card number.</description>
+        <meaning>Response contained wrong card number.</meaning>
+    </error>
+    <error>
+        <code>712</code>
+        <description>Response contained wrong amount.</description>
+        <meaning>Response contained wrong amount.</meaning>
+    </error>
+    <error>
+        <code>713</code>
+        <description>Response contained wrong Currency Code.</description>
+        <meaning>Response contained wrong currency code.</meaning>
+    </error>
+    <error>
+        <code>714</code>
+        <description>Response contained wrong Trace Number.</description>
+        <meaning>Response contained wrong trace number.</meaning>
+    </error>
+    <error>
+        <code>715</code>
+        <description>Response contained wrong Terminal ID.</description>
+        <meaning>Response contained wrong terminal ID.</meaning>
+    </error>
+    <error>
+        <code>716</code>
+        <description>Response contained wrong Merchant Number.</description>
+        <meaning>Response contained wrong VU number.</meaning>
+    </error>
+    <error>
+        <code>717</code>
+        <description>Response contained wrong Credit Card Institute Number.</description>
+        <meaning>Response contained wrong cctiid.</meaning>
+    </error>
+    <error>
+        <code>850</code>
+        <description>Scoring OK.</description>
+        <meaning>Scoring passed successfully.</meaning>
+    </error>
+    <error>
+        <code>900</code>
+        <description>Batch transaction pending.</description>
+        <meaning>Transaction is waiting to be sent to the acquirer.</meaning>
+    </error>
+    <error>
+        <code>901</code>
+        <description>Batch transaction validated.</description>
+        <meaning>Transaction is waiting to be sent to the acquirer for clearing.</meaning>
+    </error>
+    <error>
+        <code>902</code>
+        <description>Demo batch transaction validated.</description>
+        <meaning>Transaction is waiting to be sent to the acquirer for clearing (only for demo transactions).</meaning>
+    </error>
+    <error>
+        <code>903</code>
+        <description>Batch transaction was cancelled.</description>
+        <meaning>Transaction was canceled manually by Wirecard.</meaning>
+    </error>
+    <error>
+        <code>999</code>
+        <description>Transaction is in process.</description>
+        <meaning>Transaction is in process.</meaning>
+    </error>
+    <error>
+        <code>9500</code>
+        <description>Demo Transaction OK.</description>
+        <meaning>Demo transaction was successful.</meaning>
+    </error>
+    <error>
+        <code>10000</code>
+        <description>Internal System error.</description>
+        <meaning>Internal System error.</meaning>
+    </error>
+    <error>
+        <code>10001</code>
+        <description>Wrong config pair.</description>
+        <meaning>Wrong config pair.</meaning>
+    </error>
+    <error>
+        <code>10002</code>
+        <description>Function processing not possible.</description>
+        <meaning>Function processing not possible.</meaning>
+    </error>
+    <error>
+        <code>10003</code>
+        <description>Job refused.</description>
+        <meaning>Job refused.</meaning>
+    </error>
+    <error>
+        <code>10004</code>
+        <description>Invalid Function.</description>
+        <meaning>Invalid Function.</meaning>
+    </error>
+    <error>
+        <code>10005</code>
+        <description>System error.</description>
+        <meaning>System error.</meaning>
+    </error>
+    <error>
+        <code>10006</code>
+        <description>Customer is deactivated at Server.</description>
+        <meaning>Customer is deactivated at Server.</meaning>
+    </error>
+    <error>
+        <code>10007</code>
+        <description>No parameters.</description>
+        <meaning>No parameters.</meaning>
+    </error>
+    <error>
+        <code>10008</code>
+        <description>Corrupted HTTP Stream.</description>
+        <meaning>Corrupted HTTP Stream.</meaning>
+    </error>
+    <error>
+        <code>10009</code>
+        <description>Wrong Parameters.</description>
+        <meaning>Wrong Parameters.</meaning>
+    </error>
+    <error>
+        <code>10010</code>
+        <description>XML document contains no Data.</description>
+        <meaning>XML document contains no data.</meaning>
+    </error>
+    <error>
+        <code>10011</code>
+        <description>Invalid transaction.</description>
+        <meaning>Invalid transaction.</meaning>
+    </error>
+    <error>
+        <code>10012</code>
+        <description>Encryption of XML document failed.</description>
+        <meaning>Please contact Wirecard customer services at support@wirecard.com for further information.</meaning>
+    </error>
+    <error>
+        <code>10013</code>
+        <description>Could not resolve the entity mapping.</description>
+        <meaning>Please contact Wirecard customer services at support@wirecard.com for further information.</meaning>
+    </error>
+    <error>
+        <code>10020</code>
+        <description>Connection timeout.</description>
+        <meaning>Connection timeout.</meaning>
+    </error>
+    <error>
+        <code>20000</code>
+        <description>Missing elements in XML-Request.</description>
+        <meaning>Some elements required for successful processing of a request are missing in the XML document. Please refer to the documentation for debugging.</meaning>
+    </error>
+    <error>
+        <code>20001</code>
+        <description>Error mapped to ACM code (GICC code) 204.</description>
+        <meaning>Data Error.</meaning>
+    </error>
+    <error>
+        <code>20030</code>
+        <description>Content of ConfigNumber is not according to the given content restrictions.</description>
+        <meaning>Content of tag ConfigNumber must be hexadecimal with a size of 0 to 16 characters.</meaning>
+    </error>
+    <error>
+        <code>20031</code>
+        <description>Content of Business Case Signature is not according to the given content restrictions.</description>
+        <meaning>Content of tag Business Case Signature must be hexadecimal with a size of 0 to 16 characters.</meaning>
+    </error>
+    <error>
+        <code>20032</code>
+        <description>Content of FunctionID is not according to the given content restrictions.</description>
+        <meaning>Content of tag Function ID must be alphanumerical with a size of 0 to 32 characters.</meaning>
+    </error>
+    <error>
+        <code>20033</code>
+        <description>Content of JobID is not according to the given content restrictions.</description>
+        <meaning>Content of tag Job ID must be alphanumerical with a size of 0 to 32 characters.</meaning>
+    </error>
+    <error>
+        <code>20050</code>
+        <description>Content of TransactionID is not according to the given content restrictions.</description>
+        <meaning>Content of tag Transaction ID must be alphanumerical with a size of 0 to 32 characters.</meaning>
+    </error>
+    <error>
+        <code>20051</code>
+        <description>Content of CountryCode is not according to the given content restrictions.</description>
+        <meaning>Content of tag Country Code must be capital with a size of 2 characters. Please provide 2 capitals according to ISO 3166-1.</meaning>
+    </error>
+    <error>
+        <code>20052</code>
+        <description>Content of Amount is not according to the given content restrictions.</description>
+        <meaning>Content of tag Amount must be numerical with a size of 1 to 9 digits.</meaning>
+    </error>
+    <error>
+        <code>20053</code>
+        <description>Content of Currency is not according to the given content restrictions.</description>
+        <meaning>Content of tag Currency must be capital with a size of 3 characters.</meaning>
+    </error>
+    <error>
+        <code>20054</code>
+        <description>Content of CreditCardNumber is not according to the given content restrictions.</description>
+        <meaning>Content of tag Credit Card Number must be numerical with a size of 13 to 16 digits.</meaning>
+    </error>
+    <error>
+        <code>20055</code>
+        <description>Content of ExpirationYear is not according to the given content restrictions.</description>
+        <meaning>Content of tag Expiration Year must be numerical with a size of 4 digits.</meaning>
+    </error>
+    <error>
+        <code>20056</code>
+        <description>Content of ExpirationMonth is not according to the given content restrictions.</description>
+        <meaning>Content of tag Expiration Month must be numerical with a size of 1 to 2 digits.</meaning>
+    </error>
+    <error>
+        <code>20057</code>
+        <description>Content of CardHolderName is not according to the given content restrictions.</description>
+        <meaning>Content of tag CardHolder Name must be ASCII with a size of 1 to 80 characters.</meaning>
+    </error>
+    <error>
+        <code>20058</code>
+        <description>Content of IPAddress is not according to the given content restrictions.</description>
+        <meaning>Content of tag IP address. It must be written in dot-decimal notation consisting of up to 15 characters in length.</meaning>
+    </error>
+    <error>
+        <code>20059</code>
+        <description>Content of GuWID is not according to the given content restrictions.</description>
+        <meaning>Content of tag GuWID must be alphanumerical with a size of 21 to 24 characters. A GuWID consists of the character 'C' followed by 21 alphanumerical digits.</meaning>
+    </error>
+    <error>
+        <code>20060</code>
+        <description>Content of AuthorizationCode is not according to the given content restrictions.</description>
+        <meaning>Content of tag Authorization Code must be alphanumerical with a size of 0 to 10 characters. Authorization Code is usually numerical with 6 digits.</meaning>
+    </error>
+    <error>
+        <code>20061</code>
+        <description>CVC number invalid.</description>
+        <meaning>Content of tag CVC2 must be numerical with a size of 3 to 4 characters.</meaning>
+    </error>
+    <error>
+        <code>20062</code>
+        <description>Content of 'RECURRING_TRANSACTION/Type' is not according to the given content restrictions.</description>
+        <meaning>Content of 'RECURRING_TRANSACTION/Type' must be one of 'Single','Initial' or 'Repeated'.</meaning>
+    </error>
+    <error>
+        <code>20063</code>
+        <description>Content of StartYear is not according to the given content restrictions.</description>
+        <meaning>Content of StartYear must be numerical with a size of 4 digits.</meaning>
+    </error>
+    <error>
+        <code>20064</code>
+        <description>Content of StartMonth is not according to the given content restrictions.</description>
+        <meaning>Content of StartMonth must be numerical with a size of 2 digits. Please provide two digits in the range of 01..12.</meaning>
+    </error>
+    <error>
+        <code>20065</code>
+        <description>Content of Issue is not according to the given content restrictions.</description>
+        <meaning>Card Issue Number is variable length and must be 1 or 2 digits long.</meaning>
+    </error>
+    <error>
+        <code>20066</code>
+        <description>Content of 'CommerceType' is not according to the given content restrictions.</description>
+        <meaning>Content of 'CommerceType' must be one of 'eCommerce','MOTO' or 'CustomerPresent'.</meaning>
+    </error>
+    <error>
+        <code>20067</code>
+        <description>Content of 'Usage' is not according to the given content restrictions.</description>
+        <meaning>Content of 'Usage' must be alphanumerical with a size of 0 to 256 characters.</meaning>
+    </error>
+    <error>
+        <code>20070</code>
+        <description>Credit card number invalid.</description>
+        <meaning>The given credit card number did not pass the check digit routine for a card number [Luhn check].</meaning>
+    </error>
+    <error>
+        <code>20071</code>
+        <description>Expiration date invalid.</description>
+        <meaning>Expiration date must not be exceeded.</meaning>
+    </error>
+    <error>
+        <code>20072</code>
+        <description>The requested currency is not listed in data base.</description>
+        <meaning>Please refer to documentation or Wirecard customer service for a list of valid and accepted currencies.</meaning>
+    </error>
+    <error>
+        <code>20073</code>
+        <description>Invalid transaction flow.</description>
+        <meaning>The requested function is not applicable for the referenced transaction.</meaning>
+    </error>
+    <error>
+        <code>20080</code>
+        <description>Could not find referenced transaction for GuWID %s.</description>
+        <meaning>This error usually occurs in case of preauthorizations, captures, cancellation/reversals, … when a former transaction’s GuWID is required but the given GuWID is unknown to the Wirecard system or was generated for a transaction which is not accessible by the business case in use.</meaning>
+    </error>
+    <error>
+        <code>20081</code>
+        <description>Content of 'TransactionType' is not according to the given content restrictions.</description>
+        <meaning>Content of 'TransactionType' must be one of the strings 'FNC_CC_TRANSACTION' or 'FNC_CC_AUTHORIZATION'.</meaning>
+    </error>
+    <error>
+        <code>20100</code>
+        <description>Transaction processing not possible.</description>
+        <meaning>This occurs if the user tries to capture an authorization that was not successful. Please refer to Wirecard customer service in case of further questions.</meaning>
+    </error>
+    <error>
+        <code>20101</code>
+        <description>Transaction processing not possible.</description>
+        <meaning>This occurs if the user tries to capture a preauthorization that was not successful. Please refer to Wirecard customer service in case of further questions.</meaning>
+    </error>
+    <error>
+        <code>20102</code>
+        <description>Transaction processing not possible.</description>
+        <meaning>This occurs if the user tries to capture a preauthorization supplement that was not successful. Please refer to Wirecard customer service in case of further questions.</meaning>
+    </error>
+    <error>
+        <code>20103</code>
+        <description>Transaction processing not possible.</description>
+        <meaning>This occurs if the user tries to reverse a transaction that was not successful. Please refer to Wirecard customer service in case of further questions.</meaning>
+    </error>
+    <error>
+        <code>20104</code>
+        <description>Transaction processing not possible.</description>
+        <meaning>This occurs if the user tries to book back a transaction that was not successful. Please refer to Wirecard customer service in case of further questions.</meaning>
+    </error>
+    <error>
+        <code>20105</code>
+        <description>Transaction processing refused.</description>
+        <meaning>TRANS_AMOUNT must be equal to the amount of the referenced transaction in case of REVERSAL or CAPTURE.</meaning>
+    </error>
+    <error>
+        <code>20106</code>
+        <description>Transaction processing refused.</description>
+        <meaning>CUR_CODE must be equal to the currency used for the referenced request.</meaning>
+    </error>
+    <error>
+        <code>20107</code>
+        <description>Transaction processing refused.</description>
+        <meaning>ACQ_AUTHORIZATION must be equal to authorization code of referenced request.</meaning>
+    </error>
+    <error>
+        <code>20108</code>
+        <description>Transaction processing refused.</description>
+        <meaning>TRANS_COUNTRY_CODE must be equal to country code of referenced request.</meaning>
+    </error>
+    <error>
+        <code>20109</code>
+        <description>Transaction processing refused.</description>
+        <meaning>Credit card type for a given card number is unknown / rejected.</meaning>
+    </error>
+    <error>
+        <code>20110</code>
+        <description>Transaction processing refused.</description>
+        <meaning>The terminal required for a given transaction is not available. Please contact Wirecard customer service.</meaning>
+    </error>
+    <error>
+        <code>20111</code>
+        <description>Transaction processing refused.</description>
+        <meaning>The terminal required for a given transaction is not available. Please contact Wirecard customer service.</meaning>
+    </error>
+    <error>
+        <code>20112</code>
+        <description>Transaction processing refused.</description>
+        <meaning>Transaction processing refused.</meaning>
+    </error>
+    <error>
+        <code>20113</code>
+        <description>Transaction processing refused.</description>
+        <meaning>The amount to be booked back has to be equal to or less than the amount of the referenced transaction.</meaning>
+    </error>
+    <error>
+        <code>20114</code>
+        <description>The requested amount is smaller than the minimum amount.</description>
+        <meaning>The requested amount is smaller than the minimum amount.</meaning>
+    </error>
+    <error>
+        <code>20115</code>
+        <description>Transaction processing not possible.</description>
+        <meaning>Please contact Wirecard customer service.</meaning>
+    </error>
+    <error>
+        <code>20117</code>
+        <description>Transaction processing refused.</description>
+        <meaning>Transaction processing refused.</meaning>
+    </error>
+    <error>
+        <code>20120</code>
+        <description>Transaction processing refused.</description>
+        <meaning>Please contact Wirecard customer service.</meaning>
+    </error>
+    <error>
+        <code>20121</code>
+        <description>Transaction processing refused.</description>
+        <meaning>It is not possible to process the transaction using requested 'CommerceType'.</meaning>
+    </error>
+    <error>
+        <code>23000</code>
+        <description>DINVALIDCARD: The credit card number did not pass basic checks.</description>
+        <meaning>Please contact Wirecard customer service for further details on the rejected card.</meaning>
+    </error>
+    <error>
+        <code>23001</code>
+        <description>DINVALIDDATA: Data provided is not consistent with the request.</description>
+        <meaning>Please contact Wirecard customer service to resolve this error.</meaning>
+    </error>
+    <error>
+        <code>23002</code>
+        <description>The request is missing a required field.</description>
+        <meaning>Check the following fields: customer_firstname, customer_lastname, customer_email, bill_address1, bill_country, bill_city, customer_cc_number, customer_cc_expmo, customer_cc_expyr, amount. The fields bill_state and bill_zip are required if bill_country is set to "US" or "CA".</meaning>
+    </error>
+    <error>
+        <code>23003</code>
+        <description>The request is missing a required field.</description>
+        <meaning>See above.</meaning>
+    </error>
+    <error>
+        <code>24997</code>
+        <description>Credit card number not allowed in demo mode.</description>
+        <meaning>Only demo card numbers are allowed in demo mode.</meaning>
+    </error>
+    <error>
+        <code>24998</code>
+        <description>Credit card number not allowed outside demo mode.</description>
+        <meaning>Use of demo card numbers is only allowed in demo mode.</meaning>
+    </error>
+    <error>
+        <code>24999</code>
+        <description>Unsuccessful demo run.</description>
+        <meaning>Operation failed due to use of demo card number. The credit card number used simulates a not acknowledged transaction in demo mode.</meaning>
+    </error>
+    <error>
+        <code>25000</code>
+        <description>The transaction was rejected by acquirer. This message should not apear.</description>
+        <meaning>Please contact Wirecard customer service.</meaning>
+    </error>
+    <error>
+        <code>27000</code>
+        <description>You have no permission to use the requested service.</description>
+        <meaning>Please contact Wirecard customer service.</meaning>
+    </error>
+    <error>
+        <code>27001</code>
+        <description>Transaction processing refused.</description>
+        <meaning>This error usually occurs in case of heavy load and is caused by restrictions in the processing systems of credit card acquirers. Additional terminals can be requested from the acquirer to resolve this problem. Please contact Wirecard customer service.</meaning>
+    </error>
+    <error>
+        <code>27002</code>
+        <description>Transaction processing refused.</description>
+        <meaning>Please contact Wirecard customer service.</meaning>
+    </error>
+    <error>
+        <code>29000</code>
+        <description>System error.</description>
+        <meaning>Please contact Wirecard customer service.</meaning>
+    </error>
+    <error>
+        <code>29001</code>
+        <description>Transaction processing refused.</description>
+        <meaning>Transaction processing refused.</meaning>
+    </error>
+    <error>
+        <code>29002</code>
+        <description>Client communication failure.</description>
+        <meaning>Transaction processing refused.</meaning>
+    </error>
+    
+</errors>
