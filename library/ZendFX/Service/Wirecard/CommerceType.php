@@ -135,7 +135,7 @@ class ZendFX_Service_Wirecard_CommerceType
      * @param string $type Commerce type.
      * @return bool
      */
-    public function validateType($type)
+    public function validate($type)
     {
         return (array_search($type, $this->_types) !== false)? true : false;
     }
